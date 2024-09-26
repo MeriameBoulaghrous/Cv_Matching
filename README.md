@@ -26,9 +26,9 @@ The AI-Powered CV and Job Offer Matching System utilizes Natural Language Proces
 
 #### 1. Create a Virtual Environment
 
-   bash
+   ```bash
    python3 -m venv your_environment
-   
+   ```
    Replace your_environment with your desired environment name.
 
 #### 2. Activate the Virtual Environment

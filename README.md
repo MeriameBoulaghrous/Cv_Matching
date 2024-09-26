@@ -33,13 +33,13 @@ The AI-Powered CV and Job Offer Matching System utilizes Natural Language Proces
 
 #### 2. Activate the Virtual Environment
 
-    Linux/macOS:
+   Linux/macOS:
 
    ```bash
    source your_environment/bin/activate
    ```
 
-    Windows:
+   Windows:
 
    ```bash
    your_environment\Scripts\activate
@@ -47,11 +47,11 @@ The AI-Powered CV and Job Offer Matching System utilizes Natural Language Proces
 
 #### 3. Install Dependencies
 
-    Ensure all dependencies are installed by running:
+   Ensure all dependencies are installed by running:
   
-   bash
+   ```bash
    pip install -r requirements.txt
-   
+   ```
    This command installs all necessary Python libraries listed in the requirements.txt file.
 
 
@@ -59,31 +59,29 @@ The AI-Powered CV and Job Offer Matching System utilizes Natural Language Proces
 #### 4. Download the Ollama Mistral 7B Model
   
   Follow the installation instructions on the Ollama website to install Ollama and download the Mistral 7B model.
-   bash
+   ```bash
    ollama pull mistral
-   
+   ```
 
 #### 5. Setup of the Qdrant Vector Database
   
   If Docker is not installed, refer to the Docker Install Guide. Once Docker is running, execute:
-   bash
+   ```bash
    docker run -p 6333:6333 qdrant/qdrant
-   
+   ```
 
 ## Executing the Program
 
   When the machine is turned off, the Qdrant service running in Docker stops,
   herefore, when you open a new session, you'll need to restart the Qdrant service by executing the following command:
- bash
+ ```bash
    docker start qdrant
-   
+   ```
 
 ### Running the code 
-
-
-   bash
+   ```bash
    python main.py
-   
+   ```
 
 
 ### Running the Streamlit Application
@@ -91,9 +89,9 @@ The AI-Powered CV and Job Offer Matching System utilizes Natural Language Proces
 
 1. Open the Streamlit application by running the following command:
 
-   bash
+   ```bash
    streamlit run app.py
-   
+   ```
 
 2. The application will open in your default web browser.
 

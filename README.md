@@ -35,15 +35,15 @@ The AI-Powered CV and Job Offer Matching System utilizes Natural Language Proces
 
     Linux/macOS:
 
-   bash
+   ```bash
    source your_environment/bin/activate
-   
+   ```
 
     Windows:
 
-   bash
+   ```bash
    your_environment\Scripts\activate
-   
+   ```
 
 #### 3. Install Dependencies
 
